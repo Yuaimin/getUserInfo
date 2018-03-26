@@ -1,0 +1,11 @@
+<view>
+  <image src='{{img}}'></image>
+</view>
+<view>
+  <text>昵称：</text>
+  <text>{{name}}</text>
+</view>
+<view>
+  <text>用户唯一标识：</text>
+  <text>{{user_openid}}</text>
+</view>

@@ -1,0 +1,2 @@
+<text>您拒绝了授权</text>
+<button bindtap='authorize'>点我进行授权</button>
