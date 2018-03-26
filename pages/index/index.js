@@ -2,10 +2,8 @@ const app = getApp()
 
 Page({
   data: {
-    appId: 'wx2ad14ddf0b77b56c',
-    secret: '83d8311fb4beddcc5cd80c1c5d0e7207',
-    decoding_api: 'https://yuam.xyz/PHP/demo.php',
-    session_keyApi: 'https://yuam.xyz/PHP/request.php',
+    decoding_api: '进行解密的接口',
+    session_keyApi: '获取用户 seccion_key 的接口',
     user_session_key:'',
     user_openid: '',
     img: '',
@@ -69,8 +67,6 @@ Page({
         method: 'GET',
         dataType: 'json',
         data: {
-          appid: this.data.appId,
-          session_key: data.user_session_key,
           encryptedData: data.encryptedData,
           iv: data.iv
         },
