@@ -2,8 +2,8 @@
   header("Content-type: text/html; charset=utf-8");
 
   $code = $_POST['code'];
-  $appId = "wx2ad14ddf0b77b56c";
-  $appSecret = "83d8311fb4beddcc5cd80c1c5d0e7207";
+  $appId = "小程序appid";
+  $appSecret = "小程序secret";
   $url = "https://api.weixin.qq.com/sns/jscode2session?appid=" . $appId . "&secret=" . $appSecret . "&js_code=" . $code . "&grant_type=authorization_code";
   function get($url){
     $ch = curl_init();
