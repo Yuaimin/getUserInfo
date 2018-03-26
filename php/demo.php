@@ -4,7 +4,7 @@ header("Content-type: text/html; charset=utf-8");
 
 include_once "wxBizDataCrypt.php";
 
-$appid = $_GET['appid'];
+$appid = "小程序appid";
 $sessionKey = $_GET['session_key'];
 
 $encryptedData = $_GET['encryptedData'];
